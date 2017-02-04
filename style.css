@@ -1,0 +1,40 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #3578a9;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round {
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  border: 5px solid #fffbfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text {
+  max-width: 70%;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fffbfc;
+}
